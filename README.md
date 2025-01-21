@@ -21,3 +21,28 @@ SDK (plugin) for spay
  (get_token): توکن پرداخت را دریافت می کند.
  (request_payment): درخواست پرداخت را با توکن ارسال می کند.
  (verify_payment): وضعیت پرداخت را بررسی می کند.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Implementation Document for the Sabapay Payment Gateway (Saba Pay)
+
+The "spay" payment plugin, developed in Python, is designed for managing online payment requests. This document explains how to install and use the plugin.
+
+• Installation
+To install the plugin, please execute the following command:
+
+![p-p2](https://github.com/user-attachments/assets/6000d3f0-5399-4443-9d5f-926c20111e7c)
+
+This command will automatically install the plugin along with all required dependencies.
+
+To use the plugin, information such as the merchant ID (merchant_id), callback URL (Callback_url), and amount (Amount) is required. The fields for Description, Email, and Mobile are optional.
+Code Example for Creating a Transaction:
+
+![p-p](https://github.com/user-attachments/assets/cd3dbd88-4e95-4f62-a665-2922c0cf71cf)
+
+Method Descriptions:
+
+    get_token: Retrieves the payment token.
+    request_payment: Sends a payment request with the token.
+    verify_payment: Checks the status of the payment.
