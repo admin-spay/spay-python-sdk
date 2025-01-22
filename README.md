@@ -14,8 +14,7 @@ SDK (plugin) for spay
 برای استفاده از پلاگین، اطلاعاتی نظیر شناسه پذیرنده (merchant_id) ، آدرس بازگشت (Callback_url) و مبلغ (Amount) مورد نیاز است.  فیلدهای Description، Email و Mobile اختیاری هستند.
 مثال کد برای ایجاد تراکنش: 
 
-
-![p-p](https://github.com/user-attachments/assets/cd3dbd88-4e95-4f62-a665-2922c0cf71cf)
+![p-p4](https://github.com/user-attachments/assets/dd6eeab3-a03b-4312-8729-601ea1a2288a)
 
 توضیحات متدها:
  (get_token): توکن پرداخت را دریافت می کند.
@@ -39,7 +38,8 @@ This command will automatically install the plugin along with all required depen
 To use the plugin, information such as the merchant ID (merchant_id), callback URL (Callback_url), and amount (Amount) is required. The fields for Description, Email, and Mobile are optional.
 Code Example for Creating a Transaction:
 
-![p-p](https://github.com/user-attachments/assets/cd3dbd88-4e95-4f62-a665-2922c0cf71cf)
+![p-p4](https://github.com/user-attachments/assets/09c0686b-2896-48de-8773-1efc6adcb6a2)
+
 
 Method Descriptions:
 
